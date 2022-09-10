@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Grand Parent */
+.container {
+    border: 2px solid lightgray;
+    padding: 80px 24px 80px 24px;
+}
+
+.row {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto -24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* child */
+.box {
+    border: 2px solid lightgray;
+    margin-bottom: 24px;
+}
+
+/* wrapper child */
+.box-small {
+    height: 50px;
+}
+
+/* Parent */
+.box-wrapper {
+    width: 45%;
+}
+
+/* container child */
+.box-large {
+    width: 45%;
+}
+
+.box-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-tiny {
+    width: 30%;
+    height: 50px;
+    padding-left: 10px;
+}
