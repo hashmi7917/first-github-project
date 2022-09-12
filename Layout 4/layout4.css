@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    border: 2px solid lightgray;
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    border: 2px solid lightgray;
+    margin-bottom: 24px;
+}
+
+.box-wrapper {
+    width: 45%;
+}
+
+.box-small {
+    height: 50px;
+}
+
+.box-large {
+    width: 45%;
+}
+
+.tiny-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-tiny {
+    width: calc(100% / 3.5);
+    height: 50px;
+}
