@@ -10,11 +10,11 @@
   <body>
     <section>
       <nav>
-        <img src="./assets/logo.png" class="logo" alt="Website Logo" />
+        <img src="./assets/logo.png" id="top" class="logo" alt="Website Logo" />
         <ul>
-          <li><a href="about">About</a></li>
-          <li><a href="discord">Discord</a></li>
-          <li><a href="contact">Contact</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#discord">Discord</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
       <header>
@@ -35,7 +35,7 @@
 
     <main>
       <section id="about">
-        <h2>About</h2>
+        <h2 id="about">About</h2>
         <div class="row">
           <div class="section__descriptoin">
             <div class="section__descriptoin--wrapper">
@@ -59,7 +59,7 @@
         </div>
       </section>
       <section id="discord">
-        <h2>Discord</h2>
+        <h2 id="discord">Discord</h2>
         <div class="row">
           <div class="section__descriptoin">
             <figure class="about__img--wrapper">
@@ -83,8 +83,8 @@
         </div>
       </section>
       <section id="contact">
-        <h2>Contact</h2>
-        <form action="#">
+        <h2 id="contact">Contact</h2>
+        <form action="">
           <label>Email</label>
           <input type="email" placeholder="abc@example.com" />
           <br />
@@ -97,7 +97,7 @@
         </form>
       </section>
     </main>
-    <footer>
+    <footer id="footer">
       <img
         src="./assets/logo.png"
         class="logo footer__logo"
@@ -108,7 +108,7 @@
         <a class="footer__link" href="#about">About</a>
         <a class="footer__link" href="#discord">Discord</a>
         <a class="footer__link" href="#contact">Contact</a>
-        <a class="footer__link" href="">Courses</a>
+        <a class="footer__link" href="#">Courses</a>
       </div>
       <p>Copyright Frontend Simplified</p>
     </footer>
